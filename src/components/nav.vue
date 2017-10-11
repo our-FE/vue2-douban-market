@@ -13,7 +13,7 @@
 				navItem: [
 					{text:"首页",url:"/home"},
 					{text:"分类",url:"/category"},
-					{text:"购物车",url:"/cart"},
+					{text:"购物车",url:"/verify"},
 					{text:"我的",url:"/my"},
 				]
 			}
@@ -26,7 +26,7 @@
         },
         mounted() {
         	// 监听滚动条
-        	window.addEventListener('scroll',this.handlerScroll);		    
+        	window.addEventListener('scroll',this.handlerScroll);
         },
         methods: {
         	// 映射Actions中的handlerScroll方法

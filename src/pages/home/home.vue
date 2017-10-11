@@ -20,7 +20,7 @@
 		computed: {
 			//映射State
             ...mapState([
-            	'hotProducts'
+            	'hotProducts',
             ])
 		},
 		mounted() {

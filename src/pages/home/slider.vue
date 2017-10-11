@@ -2,9 +2,11 @@
 	<div class="db_swiper">
 		<swiper :options="swiperOption">
 		  <swiper-slide v-for="slide in sliders">
-		  	<a :href="slide.url" target="_blank"><img :src="slide.img"></a>
-		  </swiper-slide>
-		  <div class="swiper-pagination" slot="pagination"></div>
+        <a :href="slide.url" target="_blank"><img :src="slide.img"></a>
+
+      </swiper-slide>
+
+      <div class="swiper-pagination" slot="pagination"></div>
 		</swiper>
 	</div>
 </template>
@@ -54,7 +56,7 @@
 		margin: 2px 0 5px;
 	}
 	.db_swiper .swiper-slide{
-		height: 100px;
+    display: inline-block;
 		background-color: #e0e0e0;
 	}
 	.db_swiper .swiper-slide img{

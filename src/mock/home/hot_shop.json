@@ -8,7 +8,7 @@
 			"name":"海阔天空",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/7b8b851d59ebc854.jpg",
 			      "url":"#/detail",
@@ -18,7 +18,7 @@
 			    },
 			    {
 			      "id":"2",
-			      "src":"http://p1.bqimg.com/587986/0c1a7ed8e7411faa.jpg",
+			      "src":"https://img.alicdn.com/bao/uploaded/TB2B.nJabTxJuJjSZFlXXaEwVXa_!!0-mallbrandsite.jpg_580x580q30s150.jpg",
 			      "url":"#/detail",
 			      "title":"PISN 高贵冷淡 四色不对称开叉高领百搭针织打底衫加厚套头毛衣女",
 			      "newPrice": "￥229",
@@ -33,7 +33,7 @@
 			"name":"光辉岁月",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/c95dc1866eaad1fa.jpg",
 			      "url":"#/detail",
@@ -58,7 +58,7 @@
 			"name":"冷雨夜",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/e8c1457d2dfdac22.jpg",
 			      "url":"#/detail",
@@ -83,7 +83,7 @@
 			"name":"真的爱你",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/2f3845307a383f5e.jpg",
 			      "url":"#/detail",
@@ -108,7 +108,7 @@
 			"name":"喜欢你",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/93d622d10ac88119.jpg",
 			      "url":"#/detail",
@@ -133,7 +133,7 @@
 			"name":"大地",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/7b8b851d59ebc854.jpg",
 			      "url":"#/detail",
@@ -158,7 +158,7 @@
 			"name":"情人",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/c95dc1866eaad1fa.jpg",
 			      "url":"#/detail",
@@ -183,7 +183,7 @@
 			"name":"不再犹豫",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/e8c1457d2dfdac22.jpg",
 			      "url":"#/detail",
@@ -208,7 +208,7 @@
 			"name":"灰色轨迹",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/2f3845307a383f5e.jpg",
 			      "url":"#/detail",
@@ -233,7 +233,7 @@
 			"name":"无悔一生",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://p1.bqimg.com/587986/93d622d10ac88119.jpg",
 			      "url":"#/detail",
@@ -258,7 +258,7 @@
 			"name":"曾经拥有",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20160831/22/5180266120160831225657017.jpg?800x1131_120",
 			      "url":"#/detail",
@@ -283,7 +283,7 @@
 			"name":"长城",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image16-c.poco.cn/mypoco/myphoto/20160511/16/5626512620160511163749014.jpg?2048x1369_120",
 			      "url":"#/detail",
@@ -308,7 +308,7 @@
 			"name":"再见理想",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20170301/21/5180266120170301213149086.jpg?800x1142_120",
 			      "url":"#/detail",
@@ -333,7 +333,7 @@
 			"name":"失去的日子",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image15-c.poco.cn/mypoco/myphoto/20140812/07/17372699420140812075041020.jpg?1024x683_120",
 			      "url":"#/detail",
@@ -358,7 +358,7 @@
 			"name":"农民",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20160907/21/5615097720160907215913095.jpg?850x567_120",
 			      "url":"#/detail",
@@ -383,7 +383,7 @@
 			"name":"无尽空虚",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20160712/03/5783731820160712030019094.jpg?2000x2000_120",
 			      "url":"#/detail",
@@ -408,7 +408,7 @@
 			"name":"不可一世",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20161027/01/5783731820161027013703066.jpg?1100x1033_120",
 			      "url":"#/detail",
@@ -433,7 +433,7 @@
 			"name":"遥望",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20170301/21/5180266120170301213310061.jpg?800x1200_120",
 			      "url":"#/detail",
@@ -458,7 +458,7 @@
 			"name":"旧日足迹",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image170-c.poco.cn/mypoco/myphoto/20121218/10/64457356201212181027273370475826638_000.jpg",
 			      "url":"#/detail",
@@ -483,7 +483,7 @@
 			"name":"永远的朋友",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image16-c.poco.cn/mypoco/myphoto/20141122/18/6648836120141122184519022.jpg?1024x683_120",
 			      "url":"#/detail",
@@ -508,7 +508,7 @@
 			"name":"愿我能",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20160706/14/5579360420160706144629018.jpg?1000x1200_120",
 			      "url":"#/detail",
@@ -533,7 +533,7 @@
 			"name":"无语问苍天",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image16-c.poco.cn/mypoco/myphoto/20141122/18/6648836120141122184449043.jpg?1024x683_120",
 			      "url":"#/detail",
@@ -558,7 +558,7 @@
 			"name":"早班火车",
 			"intrduction":"这是一个良心店铺，欢迎多多光临",
 			"products":[
-				{ 
+				{
 			      "id":"1",
 			      "src":"http://image18-c.poco.cn/mypoco/myphoto/20161224/22/5180266120161224225737040.jpg?1280x1385_120",
 			      "url":"#/detail",

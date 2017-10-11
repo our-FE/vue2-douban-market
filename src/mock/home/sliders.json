@@ -2,7 +2,7 @@
 	"code":"0",
 	"message":"请求成功！",
 	"list":[
-		{
+		    {
       		"img": "https://img3.doubanio.com/img/files/file-1485236684-0.jpg",
       		"url": "www.baidu.com"
       	},
