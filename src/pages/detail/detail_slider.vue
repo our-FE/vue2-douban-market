@@ -35,8 +35,16 @@
 	}
 </script>
 <style scoped>
+  .detail_slider{
+    height: 400px;
+    overflow: hidden;
+  }
+  .swiper-wrapper{
+    display: inline-block;
+  }
 	.detail_slider .swiper-slide{
-		height: 300px;
+		/*height: 300px;*/
+    display: inline-flex;
 		background-color: #e0e0e0;
 	}
 	.detail_slider .swiper-slide img{

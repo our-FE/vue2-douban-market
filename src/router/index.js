@@ -4,12 +4,12 @@ import Error from '../components/404.vue'
 import Hello from '@/components/Hello'
 import Home from '@/pages/home/home.vue'
 import Category from '@/pages/category/category.vue'
-import Cart from '@/pages/cart/cart.vue'
+import Verify from '@/pages/cart/verify.vue'
 import My from '@/pages/my/my.vue'
 import List from '@/pages/list/list.vue'
 import Detail from '@/pages/detail/detail.vue'
 import Login from '@/pages/login/login.vue'
-
+import Cart from '@/pages/cart/cart.vue'
 
 Vue.use(Router)
 
@@ -45,6 +45,11 @@ export default new Router({
       path:'/cart',
       name:'Cart',
       component: Cart
+    },
+    {
+      path:'/verify',
+      name:'Cart',
+      component: Verify
     },
     {
       path:'/my',

@@ -23,7 +23,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- 选择颜色和尺码 -->
 		<div class="db_detail_choice">
 			<div class="choice_style">
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- 选择数量 -->
 		<div class="db_detail_num">
 			<label class="num_title">数量</label>
@@ -49,7 +49,7 @@
 				<span class="addition" :class="{active:number>0}" @click="addition">+</span>
 			</div>
 		</div>
-		
+
 		<!-- 承诺 -->
 		<div class="db_detail_promise">
 			<span>豆瓣市集担保</span>
@@ -57,14 +57,14 @@
 			<span>正品保证</span>
 			<span>独立品牌</span>
 		</div>
-		
+
 		<!-- 选项卡 -->
 		<div class="db_detail_tabs">
 			<span @click="toggleTabs('TabsDetail',$event)" data-id="0" :class="{active:0==isActive}">商品详情</span>
 			<span @click="toggleTabs('TabsRated',$event)" data-id="1" :class="{active:1==isActive}">评价<i>2</i></span>
 			<span @click="toggleTabs('TabsDiscuss',$event)" data-id="2" :class="{active:2==isActive}">讨论</span>
 		</div>
-		
+
 		<!-- tabs内容块-->
 		<div class="db_detail_conts">
 			<component :is="componentId"></component>
@@ -72,17 +72,22 @@
 
 		<!-- 固定栏 -->
 		<div class="db_fixed_bar">
-			<div class="cart"><span class="fa fa-shopping-cart"></span></div>
-			<div class="add">加购物车</div>
+          <div class="cart" to="#/verify">
+            <router-link to="/verify" class="herf">
+              <span class="fa fa-shopping-cart"></span>
+            </router-link>
+          </div>
+
+      <div class="add"  @click="addCar('TabsDetail',$event)">加购物车</div>
 			<div class="buy">立即购买</div>
 		</div>
-
+    <toast message="已成功添加至购物车"></toast>
 	</div>
 </template>
 <script type="text/javascript">
 	import axios from 'axios'
 	import DetailSlider from './detail_slider.vue'
-
+  import Toast from './../../components/toast.vue'
 	import TabsDetail from './tabs_detail.vue'
 	import TabsRated from './tabs_rated.vue'
 	import TabsDiscuss from './tabs_discuss.vue'
@@ -144,13 +149,17 @@
 			//返回
 			goBack(){
 				this.$router.go(-1);
-			}
+			},
+			addCar(){
+
+      }
 		},
 		components: {
 			DetailSlider,
 			TabsDetail,
 			TabsRated,
-			TabsDiscuss
+			TabsDiscuss,
+      Toast
 		}
 	}
 </script>
@@ -216,7 +225,7 @@
 		color:#68cb78;
 	}
 
-	
+
 	.db_detail .db_detail_choice{
 		padding: 15px;
 		border-bottom: 1px solid #f0f0f0;
@@ -267,7 +276,7 @@
 		line-height: 25px;
 		padding: 15px;
 		border-bottom: 1px solid #f0f0f0;
-	}	
+	}
 	.db_detail .db_detail_num .num_title{
 		display: inline-block;
 		width: 50px;
@@ -331,7 +340,7 @@
 		border-left: 1px solid #ccc;
 	}
 
-	
+
 	.db_detail_tabs {
 		display: -webkit-box;
 		display: -webkit-flex;
@@ -383,7 +392,11 @@
 	.db_fixed_bar .cart{
 		color: #9d9d9d;
 		font-size: 16px;
+    flex:1;
 	}
+  .db_fixed_bar .herf{
+    display: block;
+  }
 	.db_fixed_bar .add {
 		background-color: #eba887;
 	}

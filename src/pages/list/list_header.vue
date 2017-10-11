@@ -38,6 +38,14 @@
 				]
 			}
 		},
+    created() {
+      console.log(this.$route.params);
+      let id = this.$route.params.id - 1 ;
+      this.$data.currenSelect = {
+        id : id ,
+        text : this.$data.categorys[id].text
+      }
+    },
 		methods: {
 		    // 显示分类菜单函数
 			chooseCategory(){

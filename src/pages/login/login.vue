@@ -2,11 +2,16 @@
 	<div class="db_login">
 		<div class="db_login_top"><a href="javascript:void(0);" class="cancel" @click="goBack">取消</a>登录豆瓣</div>
 		<div class="db_login_form">
-			<form action="#" method="post">
+			<!--<form action="#/cart" method="post">-->
 				<p class="form_item"><input type="text" name="username" placeholder="邮箱/手机号/用户名"></p>
 				<p class="form_item"><input type="password" name="pasword" placeholder="密码"></p>
-				<p class="form_btn"><button type="submit">登录</button></p>
-			</form>
+				<p class="form_btn">
+          <router-link to="/cart">
+            <button type="submit">登录</button>
+
+          </router-link>
+        </p>
+			<!--</form>-->
 		</div>
 		<div class="login_other">使用其它方式登录 & 找回密码</div>
 		<div class="regist_download">

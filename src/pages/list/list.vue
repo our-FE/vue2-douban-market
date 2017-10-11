@@ -53,7 +53,7 @@
 		computed: {
 			//映射State
             ...mapState([
-            	'products',
+            	  'products',
                 'busy',
                 'isShowLoadingTips',
                 'isShowLoadedTips'
