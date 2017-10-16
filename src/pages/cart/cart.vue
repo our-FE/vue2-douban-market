@@ -2,7 +2,7 @@
   <div class="cart">
     <header-bar></header-bar>
     <nav-bar></nav-bar>
-    <good :cart="cart"></good>
+    <good :hotProducts="hotProducts"></good>
   </div>
 </template>
 
@@ -17,15 +17,15 @@
     computed: {
       //映射State
       ...mapState([
-        'cart',
+        'hotProducts',
       ])
     },
     mounted() {
       //获取热门商品列表
-      this.getCart();
+      this.getHotProducts();
     },
     methods: {
-      ...mapActions(['getCart'])
+      ...mapActions(['getHotProducts'])
     },
     components: {
       HeaderBar,

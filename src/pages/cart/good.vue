@@ -1,7 +1,7 @@
 <template>
   <div class="buyCar">
     <ul>
-      <li v-for="(product,index) in cart" class="car_item">
+      <li v-for="(product,index) in hotProducts" class="car_item">
         <!--<div class="car_item">-->
         <div class="car_choose"><p><input :id="index" type="checkbox" class="input-box"><label :for="index"></label></p>
         </div>
@@ -42,7 +42,7 @@
 <script type="text/javascript">
   export default {
     name: 'good',
-    props: ['cart']
+    props: ['hotProducts']
   }
 </script>
 <style lang="scss">

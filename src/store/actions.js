@@ -57,14 +57,6 @@ export default {
 			}
 		})
 	},
-  getCart({commit,state}){
-    axios.get('/mock/cart/cart.json').then((response)=>{
-      let result = response.data.list;
-      if(result){
-        commit(types.GET_CART,result.slice(0,6));
 
-      }
-    });
-  }
 }
 
