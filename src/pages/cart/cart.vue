@@ -2,30 +2,35 @@
   <div class="cart">
     <header-bar></header-bar>
     <nav-bar></nav-bar>
-    <div class="login_false">
-      <div class="login_false">还未登录,请使用豆瓣账号登录</div>
-      <div class="login_entry">
-        <p class="login_tip2">登录豆瓣账号后，可以进行订单查询，使用优惠券</p>
-        <a href="#/login" class="btn_login">登录</a>
-        <p class="btn_regist">没有豆瓣账号?<a href="#">注册</a></p>
-      </div>
-      <div class="anonymous">
-        <p>使用匿名购买，则可以点击以下链接查询订单</p>
-        <p><a href="#">查询订单</a></p>
-      </div>
-    </div>
+    <good :cart="cart"></good>
   </div>
 </template>
 
 <script type="text/javascript">
-
+  import {mapState, mapActions} from 'vuex'
   import HeaderBar from '../../components/header.vue'
   import NavBar from '../../components/nav.vue'
+  import Good from './good.vue'
+
 
   export default {
+    computed: {
+      //映射State
+      ...mapState([
+        'cart',
+      ])
+    },
+    mounted() {
+      //获取热门商品列表
+      this.getCart();
+    },
+    methods: {
+      ...mapActions(['getCart'])
+    },
     components: {
       HeaderBar,
-      NavBar
+      NavBar,
+      Good
     }
   }
 </script>
