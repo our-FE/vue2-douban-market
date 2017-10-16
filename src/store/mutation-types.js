@@ -16,4 +16,6 @@ export const IS_SHOW_LOADING_TIPS = 'IS_SHOW_LOADING_TIPS'
 
 export const IS_SHOW_LOADED_TIPS = 'IS_SHOW_LOADED_TIPS'
 
+export const GET_CART = 'GET_CART'
+
 

@@ -7,7 +7,8 @@ import {
 	GET_HOT_SHOPS,
 	GET_PRODUCTS,
 	IS_SHOW_LOADING_TIPS,
-	IS_SHOW_LOADED_TIPS
+	IS_SHOW_LOADED_TIPS,
+  GET_CART
 } from './mutation-types.js'
 
 
@@ -38,5 +39,8 @@ export default {
 	},
 	[IS_SHOW_LOADED_TIPS](state,bool){
 		state.isShowLoadedTips = bool;
-	}
+	},
+  [GET_CART](state,list){
+    state.cart = state.cart.concat(list);
+  },
 }

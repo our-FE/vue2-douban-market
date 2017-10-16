@@ -23,7 +23,8 @@ export default {
 			let result = response.data.list;
 			if(result){
 				commit(types.GET_HOT_PRODUCTS,result.slice(0,6));
-			}
+
+      }
 		});
 	},
 	getHotShops({commit,state}){
@@ -55,6 +56,21 @@ export default {
 				commit(types.IS_SHOW_LOADED_TIPS,true);
 			}
 		})
-	}
+	},
+  getCart({commit,state}){
+    state.busy = true;
+    commit(types.IS_SHOW_LOADING_TIPS,true);
+    axios.get('/mock/cart/cart.json').then((response)=>{
+      commit(types.IS_SHOW_LOADING_TIPS,false);
+      let result = response.data.list.slice(state.num-5,state.num);
+      if(result.length !== 0){
+        commit(types.GET_CART,result);
+        state.busy = false;
+        state.num+=5;
+      }else{
+        commit(types.IS_SHOW_LOADED_TIPS,true);
+      }
+    })
+  }
 }
 
