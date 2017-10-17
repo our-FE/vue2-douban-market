@@ -8,15 +8,16 @@
       "url":"#/detail",
       "title":"皮包",
       "newPrice": "￥100",
-      "oldPrice": "￥299"
+      "oldPrice": "￥299",
+      "checked":"1"
     },
     {
       "id":"2",
       "src":"https://img.alicdn.com/tps/i3/TB1moLcJpXXXXbgXFXX9MF13pXX-540-660.jpg_490x490q50s100.jpg_.webp",
       "url":"#/detail",
-      "title":"PISN 高贵冷淡 四色不对称开叉高领百搭针织打底衫加厚套头毛衣女",
-      "newPrice": "￥229",
-      "oldPrice": "￥299"
+      "title":"四色不对称开叉高领百搭针织打底衫加厚套头毛衣女",
+      "newPrice": "￥109",
+      "oldPrice": "￥159"
     },
     {
       "id":"3",
