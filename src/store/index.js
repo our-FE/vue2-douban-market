@@ -16,6 +16,7 @@ const state = {
 	hotShops: [],
 	products:[],
 	num: 5,
+  cart:[],
 	busy: false,
 	isShowLoadingTips: false,
 	isShowLoadedTips: false

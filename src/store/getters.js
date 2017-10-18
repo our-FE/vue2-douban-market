@@ -7,6 +7,7 @@ export default {
 	hotShops: state=>state.hotShops,
 	products: state=>state.products,
 	num: state=>state.num,
+  cart:state=>state.cart,
 	busy: state=>state.num,
 	isShowLoadingTips: state=>state.isShowLoadingTips,
 	isShowLoadedTips: state=>state.isShowLoadedTips

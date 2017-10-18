@@ -39,5 +39,8 @@ export default {
 	},
 	[IS_SHOW_LOADED_TIPS](state,bool){
 		state.isShowLoadedTips = bool;
-	}
+	},
+  [GET_CART](state,list){
+    state.cart = state.cart.concat(list);
+  }
 }
